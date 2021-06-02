@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="E*^l9-23,}2pADleSvmG">myDart</variable><variable type="KIND_SpriteKind" id="k1wYOR2}-7R}:dSDgyl(">Player</variable><variable type="KIND_SpriteKind" id="Q][1WdzpIr2tOsStN1ZF">Projectile</variable><variable type="KIND_SpriteKind" id="qc.7Ee!!}Pvr6[F#DN*+">Food</variable><variable type="KIND_SpriteKind" id="K3S2}w.{CDI9Mo?-`%@Z">Enemy</variable></variables><block type="pxt-on-start" id="IPt/Ec%WuDhug|t`a!zM" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="?J]V;n[jr{+0+]Be%egV"><field name="VAR" id="E*^l9-23,}2pADleSvmG">myDart</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="dartsCreate" id="qPGa*;pPI_X9^:mf-cox"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="img"><shadow type="screen_image_picker" id="oFE2(^g%ZW35kN{s9X)^"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . 1 1 1 1 1 1 1 . . . . 
+. . . . 1 2 1 1 1 1 1 2 1 . . . 
+. . . 1 1 2 1 1 1 1 1 2 1 1 . . 
+. . 1 1 1 2 1 1 1 1 1 2 1 1 1 . 
+. . 1 1 1 2 1 1 1 1 1 2 1 1 1 . 
+. . 1 1 1 2 1 1 1 1 1 2 1 1 1 . 
+. . 1 1 1 2 1 1 1 1 1 2 1 1 1 . 
+. . 1 1 1 2 1 1 1 1 1 2 1 1 1 . 
+. . 1 1 1 2 1 1 1 1 1 2 1 1 1 . 
+. . 1 1 1 2 1 1 1 1 1 2 1 1 1 . 
+. . . 1 1 2 1 1 1 1 1 2 1 1 . . 
+. . . . 1 2 1 1 1 1 1 2 1 . . . 
+. . . . . 1 1 1 1 1 1 1 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"oFE2(^g%ZW35kN{s9X)^"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="C4o/rmN6z;%R_amGLZZ7"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="bD=cttm*nv!ghlR4$)Yt" x="590" y="230"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="throwDart" id="_|!3VT/)n!s=!|5MQl9]"><value name="dart"><block type="variables_get" id="u/3:-8=-YKnozTc~B(mM"><field name="VAR" id="E*^l9-23,}2pADleSvmG">myDart</field></block></value></block></statement></block><block type="controlKeys" id="Qk0Y`_T}#OURzQy5*~-0" disabled="true" x="50" y="270"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="dart"><block type="variables_get" id="^tG|YcXY`xH9,Om2!j+0" disabled="true"><field name="VAR" id="E*^l9-23,}2pADleSvmG">myDart</field></block></value><next><block type="setTrace" id="@yb)2`*,AvuQeV1BjDF^" disabled="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="dart"><block type="variables_get" id="cNnp4vM6Tm}G_d?2Q8Wp" disabled="true"><field name="VAR" id="E*^l9-23,}2pADleSvmG">myDart</field></block></value></block></next></block></xml>
